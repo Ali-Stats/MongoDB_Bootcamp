@@ -3,8 +3,7 @@ File:
     01_connect.py
 
 Purpose:
-    Demonstrates how to establish a connection between
-    Python and MongoDB using PyMongo.
+    Establish a connection between Python and MongoDB.
 
 Author:
     Syed Ali Ashraf
@@ -23,7 +22,7 @@ from Dataset.config import (
 
 def connect_database():
     """
-    Creates a MongoDB client and returns the database object.
+    Creates and returns a database object.
     """
 
     client = MongoClient(MONGO_URI)
@@ -40,7 +39,7 @@ def main():
     print("=" * 50)
     print("MongoDB Connected Successfully")
     print("=" * 50)
-    print(f"Connected Database : {database.name}")
+    print(f"Database : {database.name}")
 
 
 if __name__ == "__main__":
