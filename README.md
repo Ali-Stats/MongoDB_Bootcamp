@@ -167,8 +167,7 @@ Syed Ali Ashraf
 GitHub:
 (Add GitHub Link)
 
-LinkedIn:
-(Add LinkedIn Link)
+
 
 ---
 
